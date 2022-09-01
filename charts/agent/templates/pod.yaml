@@ -29,6 +29,10 @@ spec:
             secretKeyRef:
               name: saasglue-agent
               key: accessKeySecret
+        {{- if .Values.tags }}
+        - name: SG_TAGS
+          value: {{ .Values.tags }}
+        {{- end }}
       ports:
         - name: http
           containerPort: 80

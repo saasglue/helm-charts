@@ -3,7 +3,7 @@
 image:
   repository: saasglue/sg-agent
   pullPolicy: IfNotPresent
-  tag: "v0.0.77"
+  tag: "v0.0.78"
 
 imagePullSecrets: []
 nameOverride: ""
