@@ -9,6 +9,9 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+# SaaSGlue Agent tags formatted as "key1=val1,key2=val2"
+tags: ""
+
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
