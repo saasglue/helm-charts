@@ -3,6 +3,16 @@ entries:
   agent:
   - apiVersion: v2
     appVersion: 0.0.78
+    created: "2022-09-01T04:48:29.935512217Z"
+    description: A Kubernetes Helm chart to deploy the SaaSGlue Agent
+    digest: 7ceff43a070ae2916f26b27608878adcd253d6cb55ea792ba10ce2ce87a35b34
+    name: agent
+    type: application
+    urls:
+    - https://github.com/saasglue/helm-charts/releases/download/agent-0.1.2/agent-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.0.78
     created: "2022-09-01T04:34:48.408406468Z"
     description: A Kubernetes Helm chart to deploy the SaaSGlue Agent
     digest: b92abc03fefbf50ae5a1bc73df34a076367f73f81cb94d50798654b8bc40d010
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/saasglue/helm-charts/releases/download/agent-0.1.0/agent-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-01T04:34:48.408414668Z"
+generated: "2022-09-01T04:48:29.935521117Z"
